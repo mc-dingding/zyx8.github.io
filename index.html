@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五八班官方网页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .nav-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #a777e3;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            animation: fadeIn 2s ease-in-out;
+            width: 80%;
+            max-width: 600px;
+        }
+        .container h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .container p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <a href="picture.html" class="nav-link" aria-label="图片">
+        <i class="fa fa-image"></i>
+    </a>
+
+    <div class="container">
+        <header>
+            <h1>欢迎来到五八班官方网页</h1>
+        </header>
+        <main>
+            <section>
+                <h2>关于我们</h2>
+                <p>五八班是一个充满活力、团结友爱的集体。在这里，我们不仅追求学术上的卓越，还注重培养同学之间的友谊和团队精神。我们班级的每一位成员都以积极向上的态度面对学习和生活中的挑战，共同营造了一个温馨和谐的学习环境。</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>版权所有 &copy; 2025 mc-dingding</p>
+        </footer>
+    </div>
+</body>
+</html>
